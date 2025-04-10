@@ -6,6 +6,7 @@ This project is developed based on **BERT** (Bidirectional Encoder Representatio
 ## 📁 Project Structure
 ```text
 project_root/
+├── cls_data/              # train and test data
 ├── external_data/              # Input or auxiliary data
 │   └── external.csv
 ├── pretrained_model/           # Pretrained BERT model files
@@ -31,10 +32,10 @@ pip install -r requirements.txt
 ---
 
 ## 🔽 Download Pretrained BERT Model
-recommend source:<br/> 
-DNABERT:https://huggingface.co/zhihan1996/DNA_bert_6/tree/main<br/> 
-GENA-LM:https://huggingface.co/AIRI-Institute/gena-lm-bert-base-t2t<br/> 
-
+recommend source:<br/>
++ DNABERT:https://huggingface.co/zhihan1996/DNA_bert_6/tree/main<br/> 
++ GENA-LM:https://huggingface.co/AIRI-Institute/gena-lm-bert-base-t2t<br/> 
+Place the downloaded models into the `pretrained_model/` folder.
 ---
 
 ## 🏋️ Model Training
