@@ -12,7 +12,7 @@ project_root/
 ├── pretrained_model/           # Pretrained BERT model files
 │   ├── gena_lm_bert_base_t2t/
 │   └── DNABERT_6/
-├── results/                     # Model outputs, checkpoints, predictions
+├── results/                     # Model outputs
 │   ├── roc/
 │   ├── prc/
 │   └── metrics/
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ## 🔽 Download Pretrained BERT Model
 We recommend downloading from:<br/>
-+ **DNABERT**: https://huggingface.co/zhihan1996/DNA_bert_6/tree/main<br/> 
++ **DNABERT**: https://huggingface.co/zhihan1996/DNA_bert_6<br/> 
 + **GENA-LM**: https://huggingface.co/AIRI-Institute/gena-lm-bert-base-t2t<br/> 
 Place the downloaded models into the `pretrained_model/` folder.
 ---
