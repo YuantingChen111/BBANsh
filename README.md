@@ -23,8 +23,9 @@ project_root/
 ---
 
 ## ⚙️ Environment Setup
+`python
 pip install -r requirements.txt
-
+`
 ---
 
 ## 🔽 Download Pretrained BERT Model
