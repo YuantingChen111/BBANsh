@@ -19,7 +19,7 @@ project_root/
 ├── predict.py
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Project overview and usage instructions
-
+```
 ---
 
 ## ⚙️ Environment Setup
