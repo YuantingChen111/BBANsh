@@ -20,16 +20,18 @@ project_root/
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Project overview and usage instructions
 ```
+
 ---
 
 ## ⚙️ Environment Setup
-`python
+```python
 pip install -r requirements.txt
-`
+```
+
 ---
 
 ## 🔽 Download Pretrained BERT Model
-recommend source
+recommend source:
 DNABERT:https://huggingface.co/zhihan1996/DNA_bert_6/tree/main
 GENA-LM:https://huggingface.co/AIRI-Institute/gena-lm-bert-base-t2t
 
@@ -37,13 +39,16 @@ GENA-LM:https://huggingface.co/AIRI-Institute/gena-lm-bert-base-t2t
 
 ## 🏋️ Model Training
 Use the training script to train the model:
-
+```python
 python train.py
+```
 
 ---
 
 ## 🔍 Model Prediction
 Use the best model to make predictions on test data:
+```python
 python predict.py
+```
 
 ---
