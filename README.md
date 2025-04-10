@@ -33,8 +33,8 @@ pip install -r requirements.txt
 
 ## 🔽 Download Pretrained BERT Model
 We recommend downloading from:<br/>
-+ **DNABERT**:https://huggingface.co/zhihan1996/DNA_bert_6/tree/main<br/> 
-+ **GENA-LM**:https://huggingface.co/AIRI-Institute/gena-lm-bert-base-t2t<br/> 
++ **DNABERT**: https://huggingface.co/zhihan1996/DNA_bert_6/tree/main<br/> 
++ **GENA-LM**: https://huggingface.co/AIRI-Institute/gena-lm-bert-base-t2t<br/> 
 Place the downloaded models into the `pretrained_model/` folder.
 ---
 
