@@ -26,6 +26,8 @@ project_root/
 
 ## ⚙️ Environment Setup
 ```python
+conda create -n BBANsh python=3.10
+conda activate BBANsh
 pip install -r requirements.txt
 ```
 
