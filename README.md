@@ -12,10 +12,6 @@ project_root/
 ├── pretrained_model/           # Pretrained BERT model files
 │   ├── gena_lm_bert_base_t2t/
 │   └── DNABERT_6/
-├── results/                     # Model outputs
-│   ├── roc/
-│   ├── prc/
-│   └── metrics/
 ├── train.py                # Training and prediction scripts
 ├── predict.py
 ├── requirements.txt            # Python dependencies
